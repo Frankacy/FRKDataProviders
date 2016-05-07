@@ -17,14 +17,14 @@ Pod::Spec.new do |spec|
     end
     
     spec.subspec 'AbstractProviders' do |abs|
-        abs.source_files = 'FRKDataProviders/*.{h,m}'
+        abs.source_files = 'FRKDataProvider/*.{h,m}'
     end
     
     spec.subspec 'CollectionView' do |cvs|
-        cvs.source_files = 'FRKDataProviders/UICollectionView/*.{h,m}'
+        cvs.source_files = 'FRKDataProvider/UICollectionView/*.{h,m}'
     end
     
     spec.subspec 'TableView' do |tvs|
-        tvs.source_files = 'FRKDataProviders/UITableView/*.{h,m}'
+        tvs.source_files = 'FRKDataProvider/TableView/*.{h,m}'
     end
 end
