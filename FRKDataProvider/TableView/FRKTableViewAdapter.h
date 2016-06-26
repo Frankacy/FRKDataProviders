@@ -17,4 +17,6 @@
 - (instancetype)initWithProvider:(id<FRKDataProvider, FRKSectionInfoProvider>)provider
                        presenter:(id<FRKTableViewDataPresenter>)presenter;
 
+- (void)registerCellsForTableView:(UITableView *)tableView;
+
 @end

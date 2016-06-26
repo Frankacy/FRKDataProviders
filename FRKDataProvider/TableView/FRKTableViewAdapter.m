@@ -38,13 +38,15 @@
 }
 
 - (void)registerCellsForTableView:(UITableView *)tableView {
-    if ([self.presenter respondsToSelector:@selector(registerCellsForTableView:)]) {
-        [self.presenter registerCellsForTableView:tableView];
-    }
+    [self.presenter registerCellsForTableView:tableView];
 }
 
 - (id)itemAtIndexPath:(NSIndexPath *)indexPath {
     return self.provider;
+}
+
+- (NSIndexPath *)indexPathForItem:(id)item {
+    return [self.provider indexPathForItem:item];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {

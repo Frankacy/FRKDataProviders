@@ -44,4 +44,13 @@
     return self.items[indexPath.item];
 }
 
+- (NSIndexPath *)indexPathForItem:(id)item {
+    NSInteger index = [self.items indexOfObject:item];
+    if (index == NSNotFound) {
+        return nil;
+    } else {
+        return [NSIndexPath indexPathForItem:index inSection:0];
+    }
+}
+
 @end

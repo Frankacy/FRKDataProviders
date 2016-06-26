@@ -10,10 +10,8 @@
 
 @protocol FRKTableViewDataPresenter <NSObject>
 
-@optional
 - (void)registerCellsForTableView:(UITableView *)tableView;
 
-@required
 - (UITableViewCell *)tableView:(UITableView *)tableView
                              cellForItem:(id)item
                              atIndexPath:(NSIndexPath *)indexPath;

@@ -10,8 +10,8 @@
 
 @protocol FRKCollectionViewDataPresenter <NSObject>
 
-@required
 - (void)registerCellsForCollectionView:(UICollectionView *)collectionView;
+
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView
                              cellForItem:(id)item
                              atIndexPath:(NSIndexPath *)indexPath;

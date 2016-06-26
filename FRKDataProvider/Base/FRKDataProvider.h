@@ -11,6 +11,7 @@
 @protocol FRKDataProvider <NSObject>
 
 - (id)itemAtIndexPath:(NSIndexPath *)indexPath;
+- (NSIndexPath *)indexPathForItem:(id)item;
 - (void)loadDataWithCompletion:(void(^)())completion;
 
 @end

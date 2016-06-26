@@ -16,4 +16,6 @@
 - (instancetype)initWithProvider:(id<FRKDataProvider>)provider
                        presenter:(id<FRKCollectionViewDataPresenter>)presenter;
 
+- (void)registerCellsForCollectionView:(UICollectionView *)collectionView;
+
 @end

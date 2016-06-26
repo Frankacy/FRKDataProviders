@@ -8,68 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		2E106AD29C480DE639B9A86C /* libPods-FRKDataProviderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A48EE8E29401C43ABEEAF11 /* libPods-FRKDataProviderTests.a */; };
-		418276C11CCBBD0E003B3AE0 /* FRKDataProviders.h in Headers */ = {isa = PBXBuildFile; fileRef = 418276C01CCBBD0E003B3AE0 /* FRKDataProviders.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		418276C81CCBBD0E003B3AE0 /* FRKDataProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 418276BD1CCBBD0E003B3AE0 /* FRKDataProvider.framework */; };
-		418276D91CCBBF7B003B3AE0 /* FRKDataProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 418276D71CCBBF7B003B3AE0 /* FRKDataProvider.h */; };
-		418276DE1CCBC049003B3AE0 /* FRKCollectionViewAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 418276DC1CCBC049003B3AE0 /* FRKCollectionViewAdapter.h */; };
-		418276DF1CCBC049003B3AE0 /* FRKCollectionViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 418276DD1CCBC049003B3AE0 /* FRKCollectionViewAdapter.m */; };
 		418276E11CCBC062003B3AE0 /* FRKCollectionViewAdapterSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 418276E01CCBC062003B3AE0 /* FRKCollectionViewAdapterSpec.m */; };
-		418276E31CCBC3A4003B3AE0 /* FRKCollectionViewDataPresenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 418276E21CCBC3A4003B3AE0 /* FRKCollectionViewDataPresenter.h */; };
-		418276E61CCBD941003B3AE0 /* FRKSectionInfoProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 418276E51CCBD941003B3AE0 /* FRKSectionInfoProvider.h */; };
-		418276E91CCBD992003B3AE0 /* FRKStaticListDataProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 418276E71CCBD992003B3AE0 /* FRKStaticListDataProvider.h */; };
-		418276EA1CCBD992003B3AE0 /* FRKStaticListDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 418276E81CCBD992003B3AE0 /* FRKStaticListDataProvider.m */; };
-		418276EC1CCBDC70003B3AE0 /* FRKDataProviders.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 418276EB1CCBDC70003B3AE0 /* FRKDataProviders.podspec */; };
-		418276F51CCBE074003B3AE0 /* FRKTableViewAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 418276F31CCBE074003B3AE0 /* FRKTableViewAdapter.h */; };
-		418276F61CCBE074003B3AE0 /* FRKTableViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 418276F41CCBE074003B3AE0 /* FRKTableViewAdapter.m */; };
-		418276F81CCBE5CC003B3AE0 /* FRKTableViewDataPresenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 418276F71CCBE5CC003B3AE0 /* FRKTableViewDataPresenter.h */; };
+		9E0483C4AFB895E428C1393A /* FRKDataProviderSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0484DCC542180D13A60464 /* FRKDataProviderSpec.m */; };
+		9E0485B22D0BE193D7AEB787 /* FRKKeyValuePair.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E04884AA6BC9E20BBC6E0F1 /* FRKKeyValuePair.m */; };
+		9E048967D3EEC5030B337C8B /* FRKStaticListDataProviderSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E048C5D73AA2EFA51F9128B /* FRKStaticListDataProviderSpec.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		418276C91CCBBD0E003B3AE0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 418276B41CCBBD0E003B3AE0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 418276BC1CCBBD0E003B3AE0;
-			remoteInfo = FRKDataProvider;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		418276BD1CCBBD0E003B3AE0 /* FRKDataProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FRKDataProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		413997711D1F4AA70089922C /* FRKCoreDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRKCoreDataProvider.h; path = CoreData/FRKCoreDataProvider.h; sourceTree = "<group>"; };
+		413997721D1F4AA70089922C /* FRKCoreDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRKCoreDataProvider.m; path = CoreData/FRKCoreDataProvider.m; sourceTree = "<group>"; };
+		413997761D1F4FE10089922C /* Base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Base.h; sourceTree = "<group>"; };
+		413997781D1F51FD0089922C /* TableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableView.h; sourceTree = "<group>"; };
+		413997791D1F535D0089922C /* CollectionVIew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionVIew.h; sourceTree = "<group>"; };
 		418276C01CCBBD0E003B3AE0 /* FRKDataProviders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRKDataProviders.h; sourceTree = "<group>"; };
-		418276C21CCBBD0E003B3AE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		418276C71CCBBD0E003B3AE0 /* FRKDataProviderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FRKDataProviderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		418276CE1CCBBD0E003B3AE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		418276D71CCBBF7B003B3AE0 /* FRKDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRKDataProvider.h; sourceTree = "<group>"; };
-		418276DC1CCBC049003B3AE0 /* FRKCollectionViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRKCollectionViewAdapter.h; path = UICollectionView/FRKCollectionViewAdapter.h; sourceTree = "<group>"; };
-		418276DD1CCBC049003B3AE0 /* FRKCollectionViewAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRKCollectionViewAdapter.m; path = UICollectionView/FRKCollectionViewAdapter.m; sourceTree = "<group>"; };
+		418276D71CCBBF7B003B3AE0 /* FRKDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRKDataProvider.h; path = Base/FRKDataProvider.h; sourceTree = "<group>"; };
+		418276DC1CCBC049003B3AE0 /* FRKCollectionViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRKCollectionViewAdapter.h; path = CollectionView/FRKCollectionViewAdapter.h; sourceTree = "<group>"; };
+		418276DD1CCBC049003B3AE0 /* FRKCollectionViewAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRKCollectionViewAdapter.m; path = CollectionView/FRKCollectionViewAdapter.m; sourceTree = "<group>"; };
 		418276E01CCBC062003B3AE0 /* FRKCollectionViewAdapterSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRKCollectionViewAdapterSpec.m; sourceTree = "<group>"; };
-		418276E21CCBC3A4003B3AE0 /* FRKCollectionViewDataPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRKCollectionViewDataPresenter.h; path = UICollectionView/FRKCollectionViewDataPresenter.h; sourceTree = "<group>"; };
-		418276E51CCBD941003B3AE0 /* FRKSectionInfoProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRKSectionInfoProvider.h; sourceTree = "<group>"; };
-		418276E71CCBD992003B3AE0 /* FRKStaticListDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRKStaticListDataProvider.h; path = "Generic Providers/FRKStaticListDataProvider.h"; sourceTree = "<group>"; };
-		418276E81CCBD992003B3AE0 /* FRKStaticListDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRKStaticListDataProvider.m; path = "Generic Providers/FRKStaticListDataProvider.m"; sourceTree = "<group>"; };
+		418276E21CCBC3A4003B3AE0 /* FRKCollectionViewDataPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRKCollectionViewDataPresenter.h; path = CollectionView/FRKCollectionViewDataPresenter.h; sourceTree = "<group>"; };
+		418276E51CCBD941003B3AE0 /* FRKSectionInfoProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRKSectionInfoProvider.h; path = Base/FRKSectionInfoProvider.h; sourceTree = "<group>"; };
+		418276E71CCBD992003B3AE0 /* FRKStaticListDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRKStaticListDataProvider.h; path = Base/FRKStaticListDataProvider.h; sourceTree = "<group>"; };
+		418276E81CCBD992003B3AE0 /* FRKStaticListDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRKStaticListDataProvider.m; path = Base/FRKStaticListDataProvider.m; sourceTree = "<group>"; };
 		418276EB1CCBDC70003B3AE0 /* FRKDataProviders.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = FRKDataProviders.podspec; path = ../FRKDataProviders.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		418276F31CCBE074003B3AE0 /* FRKTableViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRKTableViewAdapter.h; path = UITableView/FRKTableViewAdapter.h; sourceTree = "<group>"; };
-		418276F41CCBE074003B3AE0 /* FRKTableViewAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRKTableViewAdapter.m; path = UITableView/FRKTableViewAdapter.m; sourceTree = "<group>"; };
-		418276F71CCBE5CC003B3AE0 /* FRKTableViewDataPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRKTableViewDataPresenter.h; path = UITableView/FRKTableViewDataPresenter.h; sourceTree = "<group>"; };
+		418276F31CCBE074003B3AE0 /* FRKTableViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRKTableViewAdapter.h; path = TableView/FRKTableViewAdapter.h; sourceTree = "<group>"; };
+		418276F41CCBE074003B3AE0 /* FRKTableViewAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRKTableViewAdapter.m; path = TableView/FRKTableViewAdapter.m; sourceTree = "<group>"; };
+		418276F71CCBE5CC003B3AE0 /* FRKTableViewDataPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRKTableViewDataPresenter.h; path = TableView/FRKTableViewDataPresenter.h; sourceTree = "<group>"; };
 		48D51E40AA38FBECBA754A48 /* Pods-FRKDataProviderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRKDataProviderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FRKDataProviderTests/Pods-FRKDataProviderTests.release.xcconfig"; sourceTree = "<group>"; };
 		52F1802416F604776EDEFDB0 /* Pods-FRKDataProviderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRKDataProviderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FRKDataProviderTests/Pods-FRKDataProviderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6A48EE8E29401C43ABEEAF11 /* libPods-FRKDataProviderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FRKDataProviderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E0484DCC542180D13A60464 /* FRKDataProviderSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRKDataProviderSpec.m; sourceTree = "<group>"; };
+		9E04884AA6BC9E20BBC6E0F1 /* FRKKeyValuePair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRKKeyValuePair.m; sourceTree = "<group>"; };
+		9E0489F798FB1B62A2B9DC56 /* FRKKeyValuePair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRKKeyValuePair.h; sourceTree = "<group>"; };
+		9E048C5D73AA2EFA51F9128B /* FRKStaticListDataProviderSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRKStaticListDataProviderSpec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		418276B91CCBBD0E003B3AE0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		418276C41CCBBD0E003B3AE0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				418276C81CCBBD0E003B3AE0 /* FRKDataProvider.framework in Frameworks */,
 				2E106AD29C480DE639B9A86C /* libPods-FRKDataProviderTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,6 +64,26 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		413997701D1F47BB0089922C /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				413997711D1F4AA70089922C /* FRKCoreDataProvider.h */,
+				413997721D1F4AA70089922C /* FRKCoreDataProvider.m */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		413997751D1F4B8E0089922C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				418276D71CCBBF7B003B3AE0 /* FRKDataProvider.h */,
+				418276E51CCBD941003B3AE0 /* FRKSectionInfoProvider.h */,
+				418276E71CCBD992003B3AE0 /* FRKStaticListDataProvider.h */,
+				418276E81CCBD992003B3AE0 /* FRKStaticListDataProvider.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
 		418276B31CCBBD0E003B3AE0 = {
 			isa = PBXGroup;
 			children = (
@@ -100,7 +98,6 @@
 		418276BE1CCBBD0E003B3AE0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				418276BD1CCBBD0E003B3AE0 /* FRKDataProvider.framework */,
 				418276C71CCBBD0E003B3AE0 /* FRKDataProviderTests.xctest */,
 			);
 			name = Products;
@@ -109,13 +106,15 @@
 		418276BF1CCBBD0E003B3AE0 /* FRKDataProvider */ = {
 			isa = PBXGroup;
 			children = (
-				418276F21CCBE05A003B3AE0 /* UITableVIew */,
-				418276E41CCBD91C003B3AE0 /* Generic Providers */,
-				418276DB1CCBC033003B3AE0 /* UICollectionView */,
 				418276C01CCBBD0E003B3AE0 /* FRKDataProviders.h */,
-				418276C21CCBBD0E003B3AE0 /* Info.plist */,
-				418276D71CCBBF7B003B3AE0 /* FRKDataProvider.h */,
-				418276E51CCBD941003B3AE0 /* FRKSectionInfoProvider.h */,
+				413997761D1F4FE10089922C /* Base.h */,
+				413997751D1F4B8E0089922C /* Base */,
+				413997781D1F51FD0089922C /* TableView.h */,
+				418276F21CCBE05A003B3AE0 /* Table View */,
+				413997791D1F535D0089922C /* CollectionVIew.h */,
+				418276DB1CCBC033003B3AE0 /* Collection View */,
+				413997701D1F47BB0089922C /* Core Data */,
+				418276E41CCBD91C003B3AE0 /* Generic Providers */,
 				418276EB1CCBDC70003B3AE0 /* FRKDataProviders.podspec */,
 			);
 			path = FRKDataProvider;
@@ -124,39 +123,39 @@
 		418276CB1CCBBD0E003B3AE0 /* FRKDataProviderTests */ = {
 			isa = PBXGroup;
 			children = (
-				418276CE1CCBBD0E003B3AE0 /* Info.plist */,
 				418276E01CCBC062003B3AE0 /* FRKCollectionViewAdapterSpec.m */,
+				9E04884AA6BC9E20BBC6E0F1 /* FRKKeyValuePair.m */,
+				9E0489F798FB1B62A2B9DC56 /* FRKKeyValuePair.h */,
+				9E04812CB6331595B8F2D78C /* Providers */,
 			);
 			path = FRKDataProviderTests;
 			sourceTree = "<group>";
 		};
-		418276DB1CCBC033003B3AE0 /* UICollectionView */ = {
+		418276DB1CCBC033003B3AE0 /* Collection View */ = {
 			isa = PBXGroup;
 			children = (
 				418276DC1CCBC049003B3AE0 /* FRKCollectionViewAdapter.h */,
 				418276DD1CCBC049003B3AE0 /* FRKCollectionViewAdapter.m */,
 				418276E21CCBC3A4003B3AE0 /* FRKCollectionViewDataPresenter.h */,
 			);
-			name = UICollectionView;
+			name = "Collection View";
 			sourceTree = "<group>";
 		};
 		418276E41CCBD91C003B3AE0 /* Generic Providers */ = {
 			isa = PBXGroup;
 			children = (
-				418276E71CCBD992003B3AE0 /* FRKStaticListDataProvider.h */,
-				418276E81CCBD992003B3AE0 /* FRKStaticListDataProvider.m */,
 			);
 			name = "Generic Providers";
 			sourceTree = "<group>";
 		};
-		418276F21CCBE05A003B3AE0 /* UITableVIew */ = {
+		418276F21CCBE05A003B3AE0 /* Table View */ = {
 			isa = PBXGroup;
 			children = (
 				418276F31CCBE074003B3AE0 /* FRKTableViewAdapter.h */,
 				418276F41CCBE074003B3AE0 /* FRKTableViewAdapter.m */,
 				418276F71CCBE5CC003B3AE0 /* FRKTableViewDataPresenter.h */,
 			);
-			name = UITableVIew;
+			name = "Table View";
 			sourceTree = "<group>";
 		};
 		6987602578387B542F3B3351 /* Frameworks */ = {
@@ -167,45 +166,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9E04812CB6331595B8F2D78C /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				9E048C5D73AA2EFA51F9128B /* FRKStaticListDataProviderSpec.m */,
+				9E0484DCC542180D13A60464 /* FRKDataProviderSpec.m */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		418276BA1CCBBD0E003B3AE0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				418276E31CCBC3A4003B3AE0 /* FRKCollectionViewDataPresenter.h in Headers */,
-				418276DE1CCBC049003B3AE0 /* FRKCollectionViewAdapter.h in Headers */,
-				418276F51CCBE074003B3AE0 /* FRKTableViewAdapter.h in Headers */,
-				418276C11CCBBD0E003B3AE0 /* FRKDataProviders.h in Headers */,
-				418276D91CCBBF7B003B3AE0 /* FRKDataProvider.h in Headers */,
-				418276F81CCBE5CC003B3AE0 /* FRKTableViewDataPresenter.h in Headers */,
-				418276E61CCBD941003B3AE0 /* FRKSectionInfoProvider.h in Headers */,
-				418276E91CCBD992003B3AE0 /* FRKStaticListDataProvider.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		418276BC1CCBBD0E003B3AE0 /* FRKDataProvider */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 418276D11CCBBD0E003B3AE0 /* Build configuration list for PBXNativeTarget "FRKDataProvider" */;
-			buildPhases = (
-				418276B81CCBBD0E003B3AE0 /* Sources */,
-				418276B91CCBBD0E003B3AE0 /* Frameworks */,
-				418276BA1CCBBD0E003B3AE0 /* Headers */,
-				418276BB1CCBBD0E003B3AE0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FRKDataProvider;
-			productName = FRKDataProvider;
-			productReference = 418276BD1CCBBD0E003B3AE0 /* FRKDataProvider.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		418276C61CCBBD0E003B3AE0 /* FRKDataProviderTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 418276D41CCBBD0E003B3AE0 /* Build configuration list for PBXNativeTarget "FRKDataProviderTests" */;
@@ -220,7 +192,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				418276CA1CCBBD0E003B3AE0 /* PBXTargetDependency */,
 			);
 			name = FRKDataProviderTests;
 			productName = FRKDataProviderTests;
@@ -236,9 +207,6 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Frankacy;
 				TargetAttributes = {
-					418276BC1CCBBD0E003B3AE0 = {
-						CreatedOnToolsVersion = 7.3;
-					};
 					418276C61CCBBD0E003B3AE0 = {
 						CreatedOnToolsVersion = 7.3;
 					};
@@ -256,21 +224,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				418276BC1CCBBD0E003B3AE0 /* FRKDataProvider */,
 				418276C61CCBBD0E003B3AE0 /* FRKDataProviderTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		418276BB1CCBBD0E003B3AE0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				418276EC1CCBDC70003B3AE0 /* FRKDataProviders.podspec in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		418276C51CCBBD0E003B3AE0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -329,33 +288,18 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		418276B81CCBBD0E003B3AE0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				418276EA1CCBD992003B3AE0 /* FRKStaticListDataProvider.m in Sources */,
-				418276DF1CCBC049003B3AE0 /* FRKCollectionViewAdapter.m in Sources */,
-				418276F61CCBE074003B3AE0 /* FRKTableViewAdapter.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		418276C31CCBBD0E003B3AE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				418276E11CCBC062003B3AE0 /* FRKCollectionViewAdapterSpec.m in Sources */,
+				9E0485B22D0BE193D7AEB787 /* FRKKeyValuePair.m in Sources */,
+				9E048967D3EEC5030B337C8B /* FRKStaticListDataProviderSpec.m in Sources */,
+				9E0483C4AFB895E428C1393A /* FRKDataProviderSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		418276CA1CCBBD0E003B3AE0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 418276BC1CCBBD0E003B3AE0 /* FRKDataProvider */;
-			targetProxy = 418276C91CCBBD0E003B3AE0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		418276CF1CCBBD0E003B3AE0 /* Debug */ = {
@@ -448,38 +392,6 @@
 			};
 			name = Release;
 		};
-		418276D21CCBBD0E003B3AE0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = FRKDataProvider/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.frankacy.FRKDataProvider;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		418276D31CCBBD0E003B3AE0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = FRKDataProvider/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.frankacy.FRKDataProvider;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		418276D51CCBBD0E003B3AE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 52F1802416F604776EDEFDB0 /* Pods-FRKDataProviderTests.debug.xcconfig */;
@@ -510,15 +422,6 @@
 			buildConfigurations = (
 				418276CF1CCBBD0E003B3AE0 /* Debug */,
 				418276D01CCBBD0E003B3AE0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		418276D11CCBBD0E003B3AE0 /* Build configuration list for PBXNativeTarget "FRKDataProvider" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				418276D21CCBBD0E003B3AE0 /* Debug */,
-				418276D31CCBBD0E003B3AE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

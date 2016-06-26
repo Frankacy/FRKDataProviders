@@ -34,22 +34,20 @@ describe(@"FRKCollectionViewAdapter", ^{
     });
     
     context(@"when fetching section count", ^{
-        it(@"forwards the call to the data provider", ^{
+        pending(@"forwards the call to the data provider", ^{
             failure(@"not done yet");
         });
         
-        it(@"returns the value from the data provider", ^{
+        pending(@"returns the value from the data provider", ^{
             failure(@"not created yet");
         });
     });
     
     context(@"when fetching count for section", ^{
-        it(@"forwards the call to the data provider", ^{
-            failure(@"not done yet");
+        pending(@"forwards the call to the data provider", ^{
         });
         
-        it(@"returns the value from the data provider", ^{
-            failure(@"not created yet");
+        pending(@"returns the value from the data provider", ^{
         });
     });
     

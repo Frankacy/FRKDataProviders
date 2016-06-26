@@ -1,27 +1,22 @@
 Pod::Spec.new do |spec|
     spec.name         = 'FRKDataProviders'
     spec.version      = '1.0.0'
-    spec.license      = { :type => 'MIT' }
+    spec.license      = 'MIT'
     spec.homepage     = 'https://www.frankcourville.com/projects'
-    spec.authors      = { 'Frank Courville' => 'oss@frankcourville.com' }
+    spec.authors      = { 'Frank Courville' => 'hello@frankcourville.com' }
     spec.summary      = 'Smarter data sources for UICollectionView and UITableView'
     spec.source       = { :git => 'https://github.com/frankacy/FRKDataProviders.git', :tag => 'v1.0.0' }
+    spec.platform     = :ios
     spec.framework    = 'UIKit'
     spec.requires_arc = true
-    spec.default_subspec = 'Core'
+    spec.default_subspec = 'Base'
     
-    spec.subspec 'Core' do |cs|
-        cs.dependency 'FRKDataProviders/AbstractProviders'
-        cs.dependency 'FRKDataProviders/CollectionView'
-        cs.dependency 'FRKDataProviders/TableView'
-    end
-    
-    spec.subspec 'AbstractProviders' do |abs|
-        abs.source_files = 'FRKDataProvider/*.{h,m}'
+    spec.subspec 'Base' do |cs|
+        cs.source_files = 'FRKDataProvider/Base/*.{h,m}'
     end
     
     spec.subspec 'CollectionView' do |cvs|
-        cvs.source_files = 'FRKDataProvider/UICollectionView/*.{h,m}'
+        cvs.source_files = 'FRKDataProvider/CollectionView/*.{h,m}'
     end
     
     spec.subspec 'TableView' do |tvs|
