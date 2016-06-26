@@ -52,10 +52,6 @@
     return [self.provider numberOfSections];
 }
 
-- (NSInteger)numberOfItemsInSection:(NSInteger)section {
-    return [self.provider numberOfItemsInSection:section];
-}
-
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
     return [self.provider numberOfItemsInSection:section];
 }
