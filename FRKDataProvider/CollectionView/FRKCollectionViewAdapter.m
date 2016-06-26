@@ -8,7 +8,7 @@
 
 #import "FRKCollectionViewAdapter.h"
 #import "FRKCollectionViewDataPresenter.h"
-#import "FRKDataProvider.h"
+#import "FRKSectionInfoProvider.h"
 
 @interface FRKCollectionViewAdapter ()
 
