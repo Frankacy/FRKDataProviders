@@ -41,7 +41,7 @@
 }
 
 - (id)itemAtIndexPath:(NSIndexPath *)indexPath {
-    return self.provider;
+    return [self.provider itemAtIndexPath:indexPath];
 }
 
 - (NSIndexPath *)indexPathForItem:(id)item {
@@ -50,6 +50,10 @@
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
     return [self.provider numberOfSections];
+}
+
+- (NSInteger)numberOfItemsInSection:(NSInteger)section {
+    return [self.provider numberOfItemsInSection:section];
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {

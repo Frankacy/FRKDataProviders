@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name         = 'FRKDataProviders'
-    spec.version      = '1.0.2'
+    spec.version      = '1.0.3'
     spec.license      = 'MIT'
     spec.homepage     = 'https://www.frankcourville.com/projects'
     spec.authors      = { 'Frank Courville' => 'hello@frankcourville.com' }
