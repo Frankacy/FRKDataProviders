@@ -9,11 +9,12 @@
 #import <UIKit/UIKit.h>
 #import "FRKDataProvider.h"
 
+@protocol FRKSectionInfoProvider;
 @protocol FRKCollectionViewDataPresenter;
 
 @interface FRKCollectionViewAdapter : NSObject <UICollectionViewDataSource, FRKDataProvider>
 
-- (instancetype)initWithProvider:(id<FRKDataProvider>)provider
+- (instancetype)initWithProvider:(id<FRKDataProvider, FRKSectionInfoProvider>)provider
                        presenter:(id<FRKCollectionViewDataPresenter>)presenter;
 
 - (void)registerCellsForCollectionView:(UICollectionView *)collectionView;
