@@ -12,7 +12,7 @@
 
 @interface FRKCollectionViewAdapter ()
 
-@property(nonatomic, strong) id<FRKDataProvider> provider;
+@property(nonatomic, strong) id<FRKDataProvider, FRKSectionInfoProvider> provider;
 @property(nonatomic, strong) id<FRKCollectionViewDataPresenter> presenter;
 
 @end
