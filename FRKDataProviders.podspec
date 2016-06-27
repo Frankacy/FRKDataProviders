@@ -1,11 +1,11 @@
 Pod::Spec.new do |spec|
     spec.name         = 'FRKDataProviders'
-    spec.version      = '1.0.5'
+    spec.version      = '1.0.6'
     spec.license      = 'MIT'
     spec.homepage     = 'https://www.frankcourville.com/projects'
     spec.authors      = { 'Frank Courville' => 'hello@frankcourville.com' }
     spec.summary      = 'Smarter data sources for UICollectionView and UITableView'
-    spec.source       = { :git => 'https://github.com/frankacy/FRKDataProviders.git', :tag => 'v1.0.5' }
+    spec.source       = { :git => 'https://github.com/frankacy/FRKDataProviders.git', :tag => 'v1.0.6' }
     spec.platform     = :ios
     spec.framework    = 'UIKit'
     spec.requires_arc = true

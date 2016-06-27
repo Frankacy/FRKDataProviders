@@ -19,7 +19,7 @@
 
 @implementation FRKCollectionViewAdapter
 
-- (instancetype)initWithProvider:(id<FRKDataProvider>)provider
+- (instancetype)initWithProvider:(id<FRKDataProvider, FRKSectionInfoProvider>)provider
                        presenter:(id<FRKCollectionViewDataPresenter>)presenter {
     self = [super init];
     if (!self) {
